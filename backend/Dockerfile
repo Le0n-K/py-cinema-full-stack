@@ -13,7 +13,7 @@ COPY ../requirements.txt requirements.txt
 RUN pip install -r requirements.txt
 
 
-COPY ../frontend .
+COPY . .
 
 RUN mkdir -p /vol/web/media
 
